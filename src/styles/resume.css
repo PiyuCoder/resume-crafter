@@ -1,0 +1,179 @@
+.resume-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #121111;
+  padding: 20px;
+  position: relative;
+}
+
+.resume-container h1 {
+  font-size: 1.7rem;
+}
+
+.resume-container p {
+  margin: 0;
+}
+
+.profile-data-container {
+  width: 60%;
+  background-color: #fff;
+  padding: 2% 5%;
+  margin-top: 20px;
+  background-color: #000049;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.profile-data {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-data input,
+.profile-data h1,
+.profile-data h2,
+.profile-data p {
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  color: white;
+}
+
+.about-me-container {
+  width: 60%;
+  background-color: #fff;
+  padding: 1% 5%;
+}
+
+.about-editInput {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.edu-container,
+.exp-container,
+.projects-container {
+  width: 60%;
+  background-color: #fff;
+  padding: 1% 5%;
+}
+
+.edit,
+.save,
+.cancel,
+.resume-back {
+  position: fixed;
+  left: 9%;
+  top: 12%;
+  background-color: #2626f9;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.resume-back {
+  top: 5%;
+}
+
+button:hover {
+  background-color: #000;
+}
+
+.resume-edu-container h1,
+h2,
+p,
+.resume-skill-container h1,
+h2,
+h3,
+p,
+.resume-exp-container,
+h1,
+h2,
+p,
+.resume-project-container h1,
+h2 p {
+  margin: 0;
+  padding: 0;
+}
+
+.resume-project-container h2 {
+  font-size: 1.2rem;
+}
+
+.resume-edu-container h2,
+.resume-exp-container h2 {
+  font-size: 1.2rem;
+}
+
+.resume-skill-container,
+.resume-project-container,
+.resume-exp-container {
+  padding: 1% 0%;
+}
+
+.skill-star h3 {
+  margin: 0% 3%;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .resume-container h1 {
+    font-size: 1.2rem;
+  }
+  .resume-container h2 {
+    font-size: 0.9rem;
+  }
+  .resume-container p {
+    font-size: 0.7rem;
+  }
+
+  .resume-container {
+    padding: 10% 0 0 0;
+  }
+
+  .edu-container,
+  .exp-container,
+  .projects-container,
+  .profile-data-container,
+  .about-me-container {
+    width: 80%;
+  }
+
+  .edit,
+  .save,
+  .cancel,
+  .resume-back {
+    left: 5%;
+    font-size: small;
+    padding: 2%;
+  }
+
+  .edit,
+  .save {
+    left: 20%;
+    top: 0;
+    font-size: small;
+    padding: 2%;
+  }
+
+  .resume-back {
+    left: 5%;
+    top: 0;
+    font-size: small;
+    padding: 2%;
+  }
+}

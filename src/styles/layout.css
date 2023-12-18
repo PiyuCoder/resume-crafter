@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: white;
+}
+
+.side-container {
+  width: 20%;
+  min-width: 200px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: #333;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.content {
+  width: 80%;
+  margin-left: 20%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .side-container {
+    width: 100vw;
+
+    height: 15vh;
+  }
+
+  .content {
+    width: 100%;
+    margin-left: 0;
+  }
+}

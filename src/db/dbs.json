@@ -1,0 +1,57 @@
+{
+  "api": [
+    {
+      "id": "6ae1f060-eb73-4f23-8a57-30cd584629e5",
+      "name": "Piyush Rai",
+      "currDesignation": "Full Stack developer",
+      "location": "Prayagraj",
+      "email": "piyushrai284@gmail.com",
+      "phone": "9876543210",
+      "aboutMe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "academics": [
+        {
+          "qualification": "Graduation",
+          "program": "B.C.A",
+          "year": "2016",
+          "institute": "fsfdf",
+          "id": 1702850159156
+        }
+      ],
+      "experience": [
+        {
+          "company": "Experis",
+          "designation": "Full Stack developer",
+          "responsibilities": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "skills": "JavaScript, HTML, CSS, NodeJS, ExpressJS",
+          "id": 1702850172884
+        }
+      ],
+      "projects": [
+        {
+          "projectName": "Resume Crafter",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "technologies": "",
+          "durationTook": "5 days",
+          "id": 1702850181157
+        }
+      ],
+      "skills": [
+        {
+          "skill": "JavaScript",
+          "rating": "5",
+          "id": 1702850199339
+        },
+        {
+          "skill": "HTML",
+          "rating": "5",
+          "id": 1702850205262
+        },
+        {
+          "skill": "CSS",
+          "rating": "5",
+          "id": 1702850209662
+        }
+      ]
+    }
+  ]
+}

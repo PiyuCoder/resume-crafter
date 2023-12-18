@@ -1,0 +1,105 @@
+.aboutme-container {
+  width: 80%;
+  height: 70vh;
+  padding: 2% 0%;
+  border: 1px black solid;
+  margin: 5%;
+}
+
+.aboutme-container textarea {
+  height: 50%;
+  width: 70%;
+  font-size: 1.2rem;
+  padding: 2%;
+  outline: none;
+  border: none;
+  background-color: azure;
+}
+
+.aboutme-container button {
+  position: fixed;
+  bottom: 0%;
+  right: 4%;
+  width: 12%;
+
+  padding: 1.2%;
+  margin: 2%;
+  background-color: rgb(38, 38, 246);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .aboutme-container {
+    width: 90%;
+    margin-top: 20%;
+  }
+
+  .aboutme-container h1 {
+    font-size: 1.3rem;
+  }
+
+  .aboutme-container textarea {
+    width: 100%;
+    height: 90%;
+  }
+
+  .aboutme-container button {
+    width: 30%;
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .aboutme-container {
+    width: 90%;
+    margin-top: 10rem;
+    margin-top: 30%;
+  }
+
+  .aboutme-container h1 {
+    font-size: 1rem;
+  }
+
+  .aboutme-container textarea {
+    width: 100%;
+    height: 90%;
+    font-size: 1rem;
+  }
+
+  .aboutme-container button {
+    width: 30%;
+    padding: 2%;
+    font-size: 0.8rem;
+    bottom: 3%;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .aboutme-container {
+    width: 90%;
+    margin-top: 10rem;
+    height: 60vh;
+  }
+
+  .aboutme-container h1 {
+    font-size: 0.9rem;
+  }
+
+  .aboutme-container textarea {
+    width: 100%;
+    height: 90%;
+    font-size: 0.9rem;
+  }
+
+  .aboutme-container button {
+    width: 30%;
+    padding: 2%;
+    font-size: 0.8rem;
+    bottom: 3%;
+  }
+}

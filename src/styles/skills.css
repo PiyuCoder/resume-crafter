@@ -1,0 +1,201 @@
+.skill-main {
+  width: 80%;
+  height: auto;
+  padding: 2% 0%;
+  border: 1px black solid;
+  margin: 5%;
+}
+
+.skill-container {
+  width: 50%;
+  height: auto;
+  background-color: rgb(26, 31, 31);
+  padding: 2%;
+  position: relative;
+  border-top: 1px rgba(80, 80, 80, 0.548) solid;
+}
+
+.skill-container input {
+  width: 50%;
+  height: 5vh;
+  margin-right: 2%;
+  outline: none;
+  border: none;
+  padding: 0% 2%;
+}
+
+.skill-container select {
+  height: 5vh;
+  outline: none;
+  border: none;
+  margin-right: 2%;
+  text-align: center;
+}
+
+.star-div {
+  width: 1vw;
+}
+
+.skill-container button {
+  width: auto;
+  padding: 1%;
+  aspect-ratio: 1;
+  position: absolute;
+  border-radius: 50%;
+  right: 1%;
+  top: -1rem;
+  font-size: 0.8rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.skill-main .nxt {
+  position: fixed;
+  bottom: 0%;
+  right: 4%;
+  width: 12%;
+
+  padding: 1.2%;
+  margin: 2%;
+  background-color: rgb(38, 38, 246);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+.skill-main label {
+  font-size: larger;
+  color: rgb(119, 119, 119);
+}
+
+.skill-main .add {
+  width: auto;
+  aspect-ratio: 1;
+  font-size: 2rem;
+  border-radius: 50%;
+  font-weight: bolder;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: white;
+  box-shadow: 0px 0px 4px 0px;
+  background-color: rgb(26, 31, 31);
+}
+
+.save-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.475);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.save-modal {
+  height: 30%;
+  width: 50%;
+  background-color: white;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  line-break: auto;
+}
+
+.save-modal img {
+  width: 8%;
+  margin: 2%;
+}
+
+@media screen and (max-width: 768px) {
+  .skill-main {
+    width: 90%;
+    margin-top: 40%;
+  }
+
+  .skill-main h1 {
+    font-size: 1.3rem;
+  }
+
+  .skill-main textarea {
+    width: 100%;
+    height: 90%;
+  }
+
+  .skill-main .nxt {
+    width: 30%;
+    font-size: 0.8rem;
+  }
+
+  .save-modal {
+    height: 20%;
+    width: 90%;
+  }
+  .save-modal h2 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .skill-main {
+    width: 90%;
+    margin-top: 50%;
+  }
+
+  .skill-main h1,
+  label {
+    font-size: 1rem;
+  }
+
+  .skill-main textarea {
+    width: 100%;
+    height: 90%;
+    font-size: 1rem;
+  }
+
+  .skill-main .nxt {
+    width: 30%;
+    padding: 2%;
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .skill-main {
+    width: 90%;
+    margin-top: 10rem;
+  }
+
+  .skill-main h1,
+  label {
+    font-size: 0.9rem;
+  }
+
+  .skill-main textarea {
+    width: 100%;
+    height: 90%;
+    font-size: 0.9rem;
+  }
+
+  .skill-main .nxt {
+    width: 30%;
+    padding: 2%;
+    font-size: 0.8rem;
+    bottom: 3%;
+  }
+
+  .skill-main button {
+    width: 30%;
+    padding: 2%;
+    font-size: 0.8rem;
+    bottom: 3%;
+  }
+  .save-modal h2 {
+    font-size: 0.8rem;
+  }
+}

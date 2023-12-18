@@ -1,0 +1,121 @@
+.profile-page {
+  width: 80%;
+  height: auto;
+  padding: 2% 0%;
+  border: 1px black solid;
+  margin: 5%;
+  border-radius: 10px;
+}
+
+.profile-page-form {
+  width: 60%;
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+  position: relative;
+}
+
+.profile-page-form input {
+  height: 6vh;
+  width: calc(100% - 16px);
+  padding: 0px 8px;
+  margin-bottom: 10px;
+  outline: none;
+  border: none;
+  background-color: azure;
+}
+
+.profile-btn {
+  position: absolute;
+  bottom: 2%;
+  width: 40%;
+}
+
+.profile-page-form button {
+  position: fixed;
+  bottom: 0%;
+  right: 4%;
+  width: 12%;
+  padding: 1.2%;
+  margin: 2%;
+  background-color: rgb(38, 38, 246);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+.profile-back-btn button {
+  position: fixed;
+  bottom: 0%;
+  left: 1%;
+  width: 12%;
+  padding: 1.2%;
+  margin: 2%;
+  background-color: rgb(73, 71, 108);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  z-index: 100;
+}
+
+.profile-page-form h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.profile-page-form label {
+  margin-bottom: 8px;
+}
+
+.name-input,
+.desig-input,
+.email-input,
+.phone-input,
+.location-input {
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .profile-page-form {
+    width: 80%;
+    margin-left: 0;
+    margin-top: 5%;
+  }
+
+  .profile-page {
+    width: 90vw;
+    margin-left: 0;
+    margin-top: 8rem;
+    padding-top: 10%;
+  }
+
+  .profile-page h1 {
+    font-size: 1.3rem;
+  }
+
+  .profile-page-form button,
+  .profile-back-btn button {
+    width: 30%;
+    font-size: 0.8rem;
+  }
+
+  .profile-page-form input,
+  .name-input,
+  .desig-input,
+  .email-input,
+  .phone-input,
+  .location-input {
+    width: 100%;
+  }
+}
